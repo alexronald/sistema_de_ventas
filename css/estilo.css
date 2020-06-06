@@ -1,0 +1,155 @@
+
+body{
+   background-color: #f3f5f9;
+}
+#fondo-login{
+	background-image: url('../img/fondo0.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.login{
+	margin-top: 10%;
+}
+.login>.panel{
+	background-color: rgba(0,0,0,0.5);
+	border-color: transparent;
+	filter: alpha(opacity=10);
+}
+.login>.panel>div{
+	color: #fff;
+	background-color: transparent;
+}
+
+.wrapper .sidebar{
+  width: 160px !important;
+  height: 100%;
+  background: #0099ff;
+  padding: 10px 0px;
+  position: fixed;
+}
+.wrapper .sidebar ul li{
+  padding: 1px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #000;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-style: bold;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper>.sidebar>ul>li:hover{
+  background-color: #00bbff;
+}
+    
+.wrapper>.sidebar>ul>li:hover>a{
+  color: #fff;
+  font-size: 18px;
+  background-color: #00bbff !important;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 0px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+.navbar{
+	background: #0099ff;
+	margin-bottom: 0;
+	border: 0;
+}
+
+.dropdown-menu{
+	background: #00abef !important;
+}
+.dropdown-menu>li>a:hover{
+	background: #00bbff !important;
+	color: #fff !important;
+	font-size: 18px !important;
+}
+.caret{
+	margin-top: 10px;
+	float: right;
+}
+
+.container{
+	width: 86% !important;
+  margin-left:170px !important;
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.compras{
+	background-color: #0077ff;
+	color: #fff;
+	font-size: 18px;
+}
+.ventas{
+	background-color: #009900;
+	color: #fff;
+	font-size: 18px;
+}
+.compras-foot{
+	background-color: #0055cc;
+	color: #fff;
+}
+.ventas-foot{
+	background-color: #006600;
+	color: #fff;
+}
+#enlace>div>button{
+	border: 0;
+	height: 3em;
+	color: #fff;
+	font-size: 18px;
+}
+#enlace>div>button:hover{
+	background-color: #2b2b2b
+}
+
+.panel1{
+	background-color: #0099ff;
+}
+.panel2{
+	background-color: #0066cc;
+}
+.panel0{
+	background-color: #0077ff;
+}
+.panel3{
+	background-color: #0055cc;
+}
+
+.panel4{
+	background-color: #0099ff;
+}
+.panel5{
+	background-color: #0066cc;
+}
+.panel6{
+	background-color: #0077ff;
+}
+.panel7{
+	background-color: #0055cc;
+}
+
+.table, th, td{
+	border: 0.2px solid #000 !important;
+}
